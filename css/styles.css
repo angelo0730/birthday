@@ -1,0 +1,50 @@
+:root {
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --navyblue: #2e2f42;
+    --cloud: #f4f4fd;
+    --slate: #434455;
+    --cornflower: #e7e9fc;
+    --white: #ffffff;
+    --grey: rgba(46, 47, 66, 0.7);
+    --lightslate: #8e8f99;
+    --dairy: #fcfcfc;
+    --navyblue-modal: rgba(46, 47, 66, 0.4);
+  }
+
+  html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--navyblue, #2e2f42);
+    margin: 0;
+  }
+  
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .hero-container {
+    background-image: url(..//images/bg-hero.png);
+    padding: auto;
+    margin: auto; 
+    max-width: 100%;
+  }     
